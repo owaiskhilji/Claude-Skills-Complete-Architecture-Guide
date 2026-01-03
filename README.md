@@ -15,19 +15,16 @@ Claude Code (CLI) mein skills hamesha filesystem par base karti hain. Har skill 
 
 Har SKILL.md file ke shuru mein YAML Frontmatter hona lazmi hai taake Claude use "Discover" kar sake.
 ```
----
+
+```
 name: your-skill-name        <-- Max 64 chars, no reserved words like 'claude'
 description: Brief summary   <-- Claude ise parh kar faisla karta hai ke kab use karna hai
----
 
 # Skill Title
-
 ## Instructions
 [Step-by-step rules jo Claude ko follow karni hain]
-
 ## Examples
 [Concrete examples of how to use this skill]
-
 ## Scripts (Optional)
 [References to other files in the folder]
 ---
