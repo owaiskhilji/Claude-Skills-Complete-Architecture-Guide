@@ -11,10 +11,12 @@ Claude Code (CLI) mein skills hamesha filesystem par base karti hain. Har skill 
         ├── logic-script.py      <-- Optional: Automation scripts
         └── reference-docs.md    <-- Optional: Extra details (One level deep) 
         ```
+
+
 ## 2. SKILL.md ka Structure
 
 Har SKILL.md file ke shuru mein YAML Frontmatter hona lazmi hai taake Claude use "Discover" kar sake.
-```
+
 
 ```
 name: your-skill-name        <-- Max 64 chars, no reserved words like 'claude'
@@ -27,7 +29,7 @@ description: Brief summary   <-- Claude ise parh kar faisla karta hai ke kab use
 [Concrete examples of how to use this skill]
 ## Scripts (Optional)
 [References to other files in the folder]
----
+```
 
 ## 3. Best Practices (Professional Patterns)
 Aapne jo patterns parhe hain, unka nichor ye hai:
